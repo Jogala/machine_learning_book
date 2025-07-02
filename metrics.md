@@ -25,6 +25,9 @@
 **Formula**: `2 * (Precision * Recall) / (Precision + Recall)`  
 **Use when**: You need a balance between precision and recall, especially with imbalanced classes
 
+### ROC curve
+A ROC (Receiver Operating Characteristic) curve is a graphical plot that illustrates the performance of a binary classification model at various threshold settings. It visualizes the trade-off between true positive rate (sensitivity) and false positive rate (1 - specificity). The area under the ROC curve (AUC) is a single scalar value that summarizes the overall performance of the model. 
+
 ### AUC-ROC (Area Under the ROC Curve)
 **Definition**: Probability that the model ranks a random positive example higher than a random negative example  
 **Range**: 0.5 (random) to 1.0 (perfect)  
