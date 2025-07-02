@@ -27,6 +27,7 @@
 
 ### ROC curve
 A ROC (Receiver Operating Characteristic) curve is a graphical plot that illustrates the performance of a binary classification model at various threshold settings. It visualizes the trade-off between true positive rate (sensitivity) (X-Axis)´and false positive rate (1 - specificity) (Y-Axis). The area under the ROC curve (AUC) is a single scalar value that summarizes the overall performance of the model. 
+Best if curve increases very steep in the beginning (almost not false positives) but high true positive rate.
 
 https://www.youtube.com/watch?v=4jRBRDbJemM
 
